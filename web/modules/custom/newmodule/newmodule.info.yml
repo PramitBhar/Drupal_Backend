@@ -1,0 +1,10 @@
+name: 'my second custom drupal module'
+type: module
+core_version_requirement: ^10
+description: 'Code to create new module for development understanding!'
+package: 'My naya module'
+dependencies:
+  - drupal:link
+  - drupal:views
+  - devel:devel_generate
+version: 1.0.0
